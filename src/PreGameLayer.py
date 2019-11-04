@@ -8,7 +8,7 @@ from cocos.text import Label
 from cocos.layer.util_layers import ColorLayer
 from cocos.audio import effect
 from cocos.audio.effect import Effect
-from orca.sound import Sound
+# from orca.sound import Sound
 
 
 class PreGameLayer(ColorLayer):

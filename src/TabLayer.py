@@ -58,7 +58,7 @@ class Tabuleiro(Layer):
         self.add(self.hud)
         
         for i in self.tabMatriz:
-            print i
+            print(i)
         
     #Funcao que atualiza o tabuleiro
     def atualizaTabuleiro(self, newMatrix):

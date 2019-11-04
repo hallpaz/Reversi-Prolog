@@ -41,7 +41,7 @@ class FireManager( Layer ):
             blend_src=GL_SRC_ALPHA, blend_dest=GL_ONE)
         self.vertex_list = self.batch.add(4*num, GL_QUADS, self.group,
             'v2i', 'c4B', ('t3f', self.fimg.texture.tex_coords*num))
-        for n in xrange(0, num):
+        for n in range(0, num):
             f = Fire(0,0,0,0,0)
             self.goodies.append(f)
             self.vertex_list.vertices[n*8:(n+1)*8] = [0, 0, 0, 0, 0, 0, 0, 0]
@@ -120,7 +120,7 @@ class MenuPrincipal(Menu):
     def on_start( self ):
         preGameLayer = PreGameLayer(director, dificuldade)
         director.push(preGameLayer.criarCenar())
-        print "on_start()"
+        print("on_start()")
            
 
     def on_credits( self ):
@@ -154,7 +154,7 @@ class OptionMenu(Menu):
         itens = []
         self.dificuldades = ['macaco', 'golfinho']
         self.teste = MultipleMenuItem("Dificuldade:", self.hardWay, self.dificuldades, 0)
-        print self.teste.idx
+        print(self.teste.idx)
         itens.append( MenuItem('Fullscreen', self.on_fullscreen) )
         itens.append(self.teste)
         itens.append( ToggleMenuItem('Show FPS: ', self.on_show_fps, True) )
@@ -173,7 +173,7 @@ class OptionMenu(Menu):
         self.dificuldades[1] = balde
         global dificuldade
         dificuldade = self.dificuldades[0]
-        print dificuldade
+        print(dificuldade)
 
     def on_quit( self ):
         self.parent.switch_to( 0 )
