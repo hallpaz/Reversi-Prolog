@@ -8,6 +8,8 @@ O trabalho foi desenvolvido pelos alunos:
 * Eduardo Rocha
 * Paulo Althoff
 
-### Um título menor para ver o exemplo.
+### Confira o vídeo no canal, clicando na imagem.
 
-
+<a href="https://youtu.be/qJED5SIYoM4" target="_blank">
+  <img src="https://img.youtube.com/vi/qJED5SIYoM4/maxresdefault.jpg" alt="Vídeo do jogo">
+</a>
