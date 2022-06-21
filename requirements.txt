@@ -1,7 +1,7 @@
 cocos2d==0.6.7
 future==0.18.2
 numexpr==2.7.0
-numpy==1.17.3
+numpy==1.22.0
 orca==1.5.3
 pandas==0.25.2
 pyglet==1.4.3
