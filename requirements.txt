@@ -1,6 +1,6 @@
 cocos2d==0.6.7
 future==0.18.2
-numexpr==2.7.0
+numexpr==2.8.5
 numpy==1.17.3
 orca==1.5.3
 pandas==0.25.2
